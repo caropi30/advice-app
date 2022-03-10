@@ -11,7 +11,7 @@ function adviseCall() {
             return data;
         })
         .then(function (data) {
-            advice.innerHTML = '';
+            advice.innerHTML = "";
             // console.log(data.slip.advice);
             //advice.textContent = data.slip.advice;
             advice.insertAdjacentHTML("beforeend", `
