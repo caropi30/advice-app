@@ -6,19 +6,40 @@
     <!-- displays site properly based on user's device -->
     <title>Advice generator app</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link href="assets/fontawesome/all.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a5356e7ed4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
-    <main>
-      <div>
-        <h3></h3>
-        <p></p>
+    <i class="fa-solid fa-radar"></i>
+    <main class="main-container">
+      <div class="container">
+        <div class="advice"></div>
+        <div>
+          <br />
+          <i class="fa-regular fa-lightbulb-exclamation-on"></i>
+        </div>
+        <button
+          id="btnRandomAdvice"
+          class="btn animate__animated animate__heartBeat"
+          type="button"
+        >
+          Search
+        </button>
       </div>
-      <div>
-        <br />
-        <i class="fa-solid fa-radar"></i>
-      </div>
-      <button><i class="fa-solid fa-radar"></i></button>
     </main>
 
     <!-- <button id="btnApi">Click API</button>

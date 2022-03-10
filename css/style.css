@@ -8,4 +8,58 @@ hmtl {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: #6930c3;
+}
 
+.main-container {
+  margin: 17% auto;
+  padding: 30px;
+  max-width: 530px;
+  height: auto;
+  box-shadow: 0 5px 15px rgba(188, 189, 187, 0.4);
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #5e60ce;
+}
+
+.container {
+  margin: 2rem 2rem;
+  color: #fff;
+}
+
+.adviceId {
+  color: #98f5e1;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.btn {
+  position: absolute;
+  top: 93%;
+  background-color: #f15bb5;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 2rem;
+  left: 40%;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(203, 233, 184, 0.4);
+  font-size: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #b9fbc0;
+  box-shadow: 0 5px 15px rgba(203, 233, 184, 0.4);
+  filter: blur(0.5px);
+}
+
+.animate__animated.animate__heartBeat {
+  --animate-duration: 2s;
+  --animate-repeat: 10;
+}

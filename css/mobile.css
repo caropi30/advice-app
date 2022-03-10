@@ -1,0 +1,24 @@
+.main-container {
+  margin: 2rem;
+  padding: 30px;
+  max-width: 530px;
+  height: auto;
+  border: 1px solid black;
+  position: relative;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.btn {
+  position: absolute;
+  top: 95%;
+  background-color: #98f5e1;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  left: 43%;
+}
